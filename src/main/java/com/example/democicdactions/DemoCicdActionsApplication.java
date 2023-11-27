@@ -11,7 +11,7 @@ public class DemoCicdActionsApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "Welcome CICD test test!";
+        return "Welcome CICD test test test!";
     }
 
     /*echo "# github-cicd-action" >> README.md
